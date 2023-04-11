@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Ignored Tests",
+        "matchdStatuses": ["skipped"]
+    },
+    {
+        "name": "Infrastructure problems",
+        "matchdStatuses": ["broken", "failed"],
+        "massageRegex": ".*bye-bye.*"
+    },
+    {
+        "name": "Outdated tests",
+        "matchdStatuses": ["broken"],
+        "traceRegex": ".*FileNotFoundException.*"
+    },
+    {
+        "name": "Product defects",
+        "matchdStatuses": ["faleid"]
+    },
+    {
+        "name": "Product defects",
+        "matchdStatuses": ["broken"]
+    }
+]

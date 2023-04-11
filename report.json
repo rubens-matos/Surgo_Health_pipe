@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "login-on-admin",
+    "uri": "features/spec/login_admin.feature",
+    "keyword": "Feature",
+    "name": "Login on Admin",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "login-on-admin;try-to-login-on-admin-portal-successfull;;2",
+        "keyword": "Scenario Outline",
+        "name": "Try to login on admin portal successfull",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access the login page using a valid login",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1855592000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I fill my credentials with: 'rmatos@teamarrayo.com' and 'V5rItsJVEKcufxyHRERRL'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235835000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the home page for user",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1209932000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@adminLogin",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2405578000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128313000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40785000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-on-admin;try-to-login-on-admin-portal-using-invalid-credentials;;2",
+        "keyword": "Scenario Outline",
+        "name": "Try to login on admin portal using invalid credentials",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access the login page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38951000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit my credentials with: 'test@mail.com.br' and 'Rub3n5r@'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118188000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the message: 'Invalid email or password'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165726000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@adminInvalidLogin",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132301000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122640000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27334000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-on-admin;try-to-login-on-admin-portal-using-invalid-credentials;;3",
+        "keyword": "Scenario Outline",
+        "name": "Try to login on admin portal using invalid credentials",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access the login page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32359000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit my credentials with: 'rmatos@teamarrayo.com' and '123457289'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126975000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the message: 'Invalid email or password'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240100000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@adminInvalidLogin",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131120000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98347000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34312000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-on-admin;try-to-login-on-admin-portal-using-invalid-credentials;;4",
+        "keyword": "Scenario Outline",
+        "name": "Try to login on admin portal using invalid credentials",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access the login page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32454000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit my credentials with: 'test@teamarrayo.com' and '0987654321'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127642000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the message: 'Invalid email or password'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_admin_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159515000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@adminInvalidLogin",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131136000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112150000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33349000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "login-as-user-surgo-health",
+    "uri": "features/spec/login_surgo_portal.feature",
+    "keyword": "Feature",
+    "name": "Login as user Surgo Health",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-as-user-surgo-health;try-to-login-on-surgo-portal;;2",
+        "keyword": "Scenario Outline",
+        "name": "Try to login on Surgo portal",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access login Surgo Health page",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5890605000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I inform credentials with: 'rmatos@teamarrayo.com' and 'Rub3n5r@'",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157624000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the home page Surgo Health",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1275312000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@surgoLogin",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131079000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153275000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55317000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-as-user-surgo-health;try-to-use-invalid-login-on-surgo-health;;2",
+        "keyword": "Scenario Outline",
+        "name": "Try to use invalid login on Surgo Health",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access using invalid login Surgo Health",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216769000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit the invalid credentials with: 'test@mail.com.br' and 'Rub3n5r@'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164630000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the allert message: 'Invalid email or password'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162150000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin",
+            "line": 12
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131383000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114432000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32238000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-as-user-surgo-health;try-to-use-invalid-login-on-surgo-health;;3",
+        "keyword": "Scenario Outline",
+        "name": "Try to use invalid login on Surgo Health",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access using invalid login Surgo Health",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200052000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit the invalid credentials with: 'rmatos@teamarrayo.com' and '123457289'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203487000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the allert message: 'Invalid email or password'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228161000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin",
+            "line": 12
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131137000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110253000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35272000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-as-user-surgo-health;try-to-use-invalid-login-on-surgo-health;;4",
+        "keyword": "Scenario Outline",
+        "name": "Try to use invalid login on Surgo Health",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I access using invalid login Surgo Health",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192268000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I submit the invalid credentials with: 'test@teamarrayo.com' and '0987654321'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215189000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the allert message: 'Invalid email or password'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_surgo_health.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150274000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin",
+            "line": 12
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130807000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151829000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33209000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manage-accounts-and-companies",
+    "uri": "features/spec/manage_account.feature",
+    "keyword": "Feature",
+    "name": "Manage accounts and companies",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@regration",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179790000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131025000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;add-an-account-user",
+        "keyword": "Scenario",
+        "name": "Add an account user",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click on Ádd account",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393062000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill the data to new user and click on Add account button",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005612000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the new user registred",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@addUser",
+            "line": 7
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99472000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38344000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216518000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131045000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;edit-an-account-user",
+        "keyword": "Scenario",
+        "name": "Edit an account user",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click Edit button an user",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431671000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I edit all datas from user",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153532000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the data edited",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@editUser",
+            "line": 13
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95848000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43727000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174899000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131236000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;delete-an-account-user",
+        "keyword": "Scenario",
+        "name": "Delete an account user",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click Delete button an user",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485445000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user is deleted from the portal",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@deleteUser",
+            "line": 19
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185432000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43980000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197297000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131489000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;add-an-repeated-account-user",
+        "keyword": "Scenario",
+        "name": "Add an repeated account user",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click To Ádd account",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271132000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill the data to repeated user and click on Add account button",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323640000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the nthe allert message",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205503000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@addRepeatUser",
+            "line": 24
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122198000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32903000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204949000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132148000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;add-a-new-company",
+        "keyword": "Scenario",
+        "name": "Add a new company",
+        "description": "",
+        "line": 31,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click Add new company button",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385647000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill the name from the new company",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97628000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the new company is added on the system",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225919000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@addNewCompany",
+            "line": 30
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128877000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31942000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on Surgo Admin portal \"rmatos@teamarrayo.com\" and \"V5rItsJVEKcufxyHRERRL\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/manage_user_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177120000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131052000
+            }
+          }
+        ]
+      },
+      {
+        "id": "manage-accounts-and-companies;add-a-repeated-company's-name",
+        "keyword": "Scenario",
+        "name": "Add a repeated company's name",
+        "description": "",
+        "line": 37,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I click on Add new company button",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242242000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill the repeated name from the new company",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121107000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the new system show the message exception",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/manage_companies_steps.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203665000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regration",
+            "line": 1
+          },
+          {
+            "name": "@addRepeatedCompany",
+            "line": 36
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158562000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44208000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
