@@ -1,5 +1,3 @@
-# SemanaQANinja
-Projeto em Ruby para automatizar testes utilizando Cucumber, Capybara e Selenium e para Allure report dos testes
+# Project Automation Tests Surgo Health
+Test project in Ruby test automation using Cucumber, Capybara and Selenium
 
-
-aula: https://www.youtube.com/watch?v=t6RDagg708M
