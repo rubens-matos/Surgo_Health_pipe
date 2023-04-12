@@ -24,7 +24,7 @@ jobs:
             ruby: '3.0'
 
           - os: windows-latest
-            ruby: '3.0'
+            ruby: '3.0.6'
 
     runs-on: ${{ matrix.os }}
     steps:
