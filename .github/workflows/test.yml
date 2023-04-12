@@ -1,41 +1,23 @@
-name: Test cucumber-core
+name: CD Test
 
 on:
   push:
-
-  schedule:
-    - cron: "0 5 * * *"
-
-  workflow_call:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   test:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest]
-        ruby: ['2.6', '2.7', '3.0', '3.1']
 
-        include:
-          - os: ubuntu-latest
-            ruby: jruby
+    runs-on: ubuntu-latest
 
-          - os: macos-latest
-            ruby: '3.0'
-
-          - os: windows-latest
-            ruby: '3.0.6'
-
-    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
-
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
         with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-
+          ruby-version: '3.1'
+      - name: Install dependencies
+        run: bundle install
       - name: Run tests
         run: bundle exec cucumber
-        shell: bash
