@@ -22,10 +22,14 @@ jobs:
       - name:  Remove warning messages
         run: export RUBYOPT='-W0'
         
-      - name: Create folder
+      - name: Create folder logs
         run: |
           mkdir -p logs
-        
+          
+      - name: Create folder results
+        run: |
+          mkdir -p results
+          
       - name: Install dependencies
         run: bundle install
         
