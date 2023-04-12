@@ -19,6 +19,10 @@ jobs:
       - name: Install Report Builder
         run: gem install report_builder
         
+      - name: Create folder
+        run: |
+          mkdir -p logs
+        
       - name: Install dependencies
         run: bundle install
         
