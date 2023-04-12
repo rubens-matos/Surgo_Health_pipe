@@ -19,6 +19,9 @@ jobs:
       - name: Install Report Builder
         run: gem install report_builder
         
+      - name:  Remove warning messages
+        run: export RUBYOPT='-W0'
+        
       - name: Create folder
         run: |
           mkdir -p logs
