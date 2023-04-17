@@ -6,6 +6,7 @@ require_relative "actions"
 require "faker"
 require 'report_builder'
 require 'time'
+require 'site_prism'
 
 World(Helpers)
 World(Actions)

@@ -10,7 +10,7 @@ Then('I should see the home page Surgo Health') do
     expect(page).to have_content("Score")
 end
 
-#################### Login Surgo Health invvalid credentials #####################
+#################### Login Surgo Health invalid credentials #####################
 Given(/I access using invalid login Surgo Health/) do
     steps %{
         Given I access login Surgo Health page

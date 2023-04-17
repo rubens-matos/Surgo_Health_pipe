@@ -8,3 +8,5 @@ gem "httparty", "0.18.1"
 gem "rufo", "0.12.0"
 gem "allure-cucumber", "2.13.6.3"
 gem 'faker'
+gem 'matrix'
+gem 'site_prism'

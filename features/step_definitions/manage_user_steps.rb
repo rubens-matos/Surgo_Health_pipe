@@ -4,7 +4,7 @@ Given('I am on Surgo Admin portal {string} and {string}') do |email, password|
     login_admin_with(email, password)
 end
   
-When('I click on Ádd account') do
+When('I click on Add account') do
     click_button 'Add account'
 end
   
