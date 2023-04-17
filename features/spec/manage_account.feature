@@ -6,7 +6,7 @@ Feature: Manage accounts and companies
 
   @addUser
   Scenario: Add an account user
-    When I click on Ádd account
+    When I click on Add account
     And I fill the data to new user and click on Add account button
     Then I should see the new user registred
 

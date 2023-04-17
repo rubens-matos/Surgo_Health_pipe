@@ -38,4 +38,7 @@ module Actions
     fill_in 'first_name', with: Faker::Name.name
     click_on "Update account"
   end
+  def go_surgo_portal()
+    visit "https://consumerdev.surgohealth.com/"
+  end
 end
