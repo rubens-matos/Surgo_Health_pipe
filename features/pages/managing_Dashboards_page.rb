@@ -11,7 +11,6 @@ class Dashboards < SitePrism::Page
         mapIcon.click
         theme.click
         selectState.click
-        sleep 5
         state.click
     end
     def nameDash()
