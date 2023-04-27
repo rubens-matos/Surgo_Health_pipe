@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2795169000
+              "duration": 2316616000
             }
           },
           {
@@ -42,7 +42,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 235146000
+              "duration": 246601000
             }
           },
           {
@@ -54,7 +54,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1312637000
+              "duration": 1277428000
             }
           }
         ],
@@ -75,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21000
+              "duration": 22000
             }
           },
           {
@@ -93,14 +93,14 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1242071000
+              "duration": 1069887000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
@@ -109,20 +109,11 @@
           },
           {
             "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 112336000
-            }
-          },
-          {
-            "match": {
               "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 24473000
+              "duration": 24804000
             }
           }
         ]
@@ -144,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37647000
+              "duration": 31676000
             }
           },
           {
@@ -156,7 +147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 97400000
+              "duration": 121319000
             }
           },
           {
@@ -168,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183916000
+              "duration": 169798000
             }
           }
         ],
@@ -189,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 12000
             }
           },
           {
@@ -198,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000
+              "duration": 14000
             }
           },
           {
@@ -207,27 +198,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131341000
+              "duration": 130994000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 12000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 135868000
+              "duration": 10000
             }
           },
           {
@@ -236,7 +218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23008000
+              "duration": 18552000
             }
           }
         ]
@@ -258,7 +240,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30587000
+              "duration": 35462000
             }
           },
           {
@@ -270,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 108442000
+              "duration": 109231000
             }
           },
           {
@@ -282,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 227737000
+              "duration": 259415000
             }
           }
         ],
@@ -303,7 +285,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 13000
             }
           },
           {
@@ -312,7 +294,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15000
+              "duration": 14000
             }
           },
           {
@@ -321,27 +303,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131178000
+              "duration": 131782000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 13000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 128537000
+              "duration": 15000
             }
           },
           {
@@ -350,7 +323,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20255000
+              "duration": 24566000
             }
           }
         ]
@@ -372,7 +345,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19765000
+              "duration": 37011000
             }
           },
           {
@@ -384,7 +357,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 106995000
+              "duration": 107991000
             }
           },
           {
@@ -396,7 +369,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 167943000
+              "duration": 167818000
             }
           }
         ],
@@ -426,7 +399,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 13000
             }
           },
           {
@@ -435,27 +408,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130414000
+              "duration": 132450000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 13000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 158295000
+              "duration": 12000
             }
           },
           {
@@ -464,7 +428,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22049000
+              "duration": 25557000
             }
           }
         ]
@@ -496,7 +460,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6937973000
+              "duration": 5919386000
             }
           },
           {
@@ -508,7 +472,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 120775000
+              "duration": 125594000
             }
           },
           {
@@ -520,7 +484,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1159869000
+              "duration": 1131750000
             }
           }
         ],
@@ -537,7 +501,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 12000
             }
           },
           {
@@ -546,7 +510,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 13000
             }
           },
           {
@@ -555,27 +519,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131400000
+              "duration": 132549000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 13000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 152430000
+              "duration": 12000
             }
           },
           {
@@ -584,7 +539,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30582000
+              "duration": 28854000
             }
           }
         ]
@@ -606,7 +561,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 204055000
+              "duration": 204896000
             }
           },
           {
@@ -618,7 +573,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114335000
+              "duration": 116009000
             }
           },
           {
@@ -630,7 +585,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 160595000
+              "duration": 167334000
             }
           }
         ],
@@ -647,7 +602,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15000
+              "duration": 13000
             }
           },
           {
@@ -656,7 +611,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 16000
             }
           },
           {
@@ -665,27 +620,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131925000
+              "duration": 131117000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 14000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 115801000
+              "duration": 12000
             }
           },
           {
@@ -694,7 +640,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20038000
+              "duration": 24834000
             }
           }
         ]
@@ -716,7 +662,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 184453000
+              "duration": 202010000
             }
           },
           {
@@ -728,7 +674,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123205000
+              "duration": 131203000
             }
           },
           {
@@ -740,7 +686,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 237633000
+              "duration": 244269000
             }
           }
         ],
@@ -766,7 +712,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 11000
             }
           },
           {
@@ -775,27 +721,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131973000
+              "duration": 136012000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 18000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 120015000
+              "duration": 22000
             }
           },
           {
@@ -804,7 +741,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23115000
+              "duration": 25899000
             }
           }
         ]
@@ -826,7 +763,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 184353000
+              "duration": 205485000
             }
           },
           {
@@ -838,7 +775,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124523000
+              "duration": 122538000
             }
           },
           {
@@ -850,7 +787,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162702000
+              "duration": 161812000
             }
           }
         ],
@@ -867,7 +804,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 13000
             }
           },
           {
@@ -876,7 +813,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000
+              "duration": 20000
             }
           },
           {
@@ -885,27 +822,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131076000
+              "duration": 133486000
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 16000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 112759000
+              "duration": 10000
             }
           },
           {
@@ -914,7 +842,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22618000
+              "duration": 21144000
             }
           }
         ]
@@ -951,7 +879,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162170000
+              "duration": 167111000
             }
           }
         ],
@@ -962,7 +890,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 12000
             }
           },
           {
@@ -971,7 +899,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000
+              "duration": 19000
             }
           },
           {
@@ -980,7 +908,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130994000
+              "duration": 131514000
             }
           }
         ]
@@ -995,14 +923,14 @@
         "steps": [
           {
             "keyword": "When ",
-            "name": "I click on Ádd account",
+            "name": "I click on Add account",
             "line": 9,
             "match": {
               "location": "features/step_definitions/manage_user_steps.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 399984000
+              "duration": 414137000
             }
           },
           {
@@ -1014,7 +942,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1167399000
+              "duration": 996850000
             }
           },
           {
@@ -1026,7 +954,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000
+              "duration": 15000
             }
           }
         ],
@@ -1043,20 +971,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 14000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 146174000
+              "duration": 15000
             }
           },
           {
@@ -1065,7 +984,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24900000
+              "duration": 23505000
             }
           }
         ]
@@ -1086,7 +1005,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 156848000
+              "duration": 156277000
             }
           }
         ],
@@ -1097,7 +1016,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000
+              "duration": 17000
             }
           },
           {
@@ -1106,7 +1025,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15000
+              "duration": 13000
             }
           },
           {
@@ -1115,7 +1034,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131591000
+              "duration": 131457000
             }
           }
         ]
@@ -1137,7 +1056,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 456355000
+              "duration": 478029000
             }
           },
           {
@@ -1149,7 +1068,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130091000
+              "duration": 128022000
             }
           },
           {
@@ -1161,7 +1080,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 13000
             }
           }
         ],
@@ -1178,20 +1097,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 27000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 135149000
+              "duration": 17000
             }
           },
           {
@@ -1200,7 +1110,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19826000
+              "duration": 26988000
             }
           }
         ]
@@ -1221,7 +1131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 156161000
+              "duration": 163077000
             }
           }
         ],
@@ -1241,7 +1151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 11000
             }
           },
           {
@@ -1250,7 +1160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130735000
+              "duration": 130997000
             }
           }
         ]
@@ -1272,7 +1182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 542375000
+              "duration": 519855000
             }
           },
           {
@@ -1284,7 +1194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15000
+              "duration": 25000
             }
           }
         ],
@@ -1301,20 +1211,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 16000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 93695000
+              "duration": 25000
             }
           },
           {
@@ -1323,7 +1224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19694000
+              "duration": 24527000
             }
           }
         ]
@@ -1344,7 +1245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 158022000
+              "duration": 166973000
             }
           }
         ],
@@ -1355,7 +1256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 14000
             }
           },
           {
@@ -1364,7 +1265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 12000
             }
           },
           {
@@ -1373,7 +1274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131047000
+              "duration": 131048000
             }
           }
         ]
@@ -1395,7 +1296,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 359434000
+              "duration": 253033000
             }
           },
           {
@@ -1407,7 +1308,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 324493000
+              "duration": 352157000
             }
           },
           {
@@ -1419,7 +1320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 205536000
+              "duration": 206572000
             }
           }
         ],
@@ -1436,20 +1337,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 24000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 146781000
+              "duration": 25000
             }
           },
           {
@@ -1458,7 +1350,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25122000
+              "duration": 30333000
             }
           }
         ]
@@ -1479,7 +1371,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155410000
+              "duration": 165646000
             }
           }
         ],
@@ -1490,7 +1382,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000
+              "duration": 21000
             }
           },
           {
@@ -1499,7 +1391,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000
+              "duration": 20000
             }
           },
           {
@@ -1508,7 +1400,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130862000
+              "duration": 147739000
             }
           }
         ]
@@ -1530,7 +1422,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 398758000
+              "duration": 252545000
             }
           },
           {
@@ -1542,7 +1434,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 164103000
+              "duration": 183989000
             }
           },
           {
@@ -1554,7 +1446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 198174000
+              "duration": 47479000
             }
           }
         ],
@@ -1571,20 +1463,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 17000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 152075000
+              "duration": 23000
             }
           },
           {
@@ -1593,7 +1476,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21201000
+              "duration": 20345000
             }
           }
         ]
@@ -1614,7 +1497,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155811000
+              "duration": 158802000
             }
           }
         ],
@@ -1625,7 +1508,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000
+              "duration": 18000
             }
           },
           {
@@ -1634,7 +1517,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 16000
             }
           },
           {
@@ -1643,7 +1526,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130808000
+              "duration": 130818000
             }
           }
         ]
@@ -1665,7 +1548,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 252942000
+              "duration": 397864000
             }
           },
           {
@@ -1677,7 +1560,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92378000
+              "duration": 107158000
             }
           },
           {
@@ -1689,7 +1572,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 203330000
+              "duration": 203081000
             }
           }
         ],
@@ -1706,20 +1589,11 @@
         "after": [
           {
             "match": {
-              "location": "features/support/hooks.rb:15"
+              "location": "features/support/hooks.rb:32"
             },
             "result": {
               "status": "passed",
-              "duration": 16000
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 137458000
+              "duration": 18000
             }
           },
           {
@@ -1728,7 +1602,257 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20970000
+              "duration": 60304000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edit-researchers-on-dashboard",
+    "uri": "features/spec/managingDashboards.feature",
+    "keyword": "Feature",
+    "name": "Edit researchers on Dashboard",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@crud",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "edit-researchers-on-dashboard;saving-research-on-dashboard",
+        "keyword": "Scenario",
+        "name": "Saving research on dashboard",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I on home page of Surgo Health",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451720000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click on Map icon and select a theme",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11081410000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I select a state and click on Save button",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199138000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see it on Saved Dashboards",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 697130000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud",
+            "line": 1
+          },
+          {
+            "name": "@saveDasboard",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130871000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48113000
+            }
+          }
+        ]
+      },
+      {
+        "id": "edit-researchers-on-dashboard;deleting-research-on-dashboard-saved",
+        "keyword": "Scenario",
+        "name": "Deleting research on dashboard saved",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I logged on home page of Surgo Health",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363611000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select research saved and click on option to delete",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 908054000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on Delete option",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1803159000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should delete it from the Dashboards",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/managing_Dashboards_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308078000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud",
+            "line": 1
+          },
+          {
+            "name": "@deleteDasboard",
+            "line": 11
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131713000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61760000
             }
           }
         ]

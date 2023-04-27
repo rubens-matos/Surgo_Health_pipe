@@ -16,7 +16,7 @@ end
   
 Then('I should see it on Saved Dashboards') do
     @Dashboards.nameDash
-    expect(page).to have_content("Test automation")
+    expect(page).to have_content("Dashboard")
 end 
 ########################## Delete item from Dash #######################
 Given(/I logged on home page of Surgo Health/) do

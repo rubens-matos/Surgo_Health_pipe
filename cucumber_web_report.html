@@ -11,212 +11,256 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><header class="blue lighten-5">
-<div class="row blue lighten-1">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><header class="brown lighten-5">
+<div class="row brown lighten-1">
 <div class="col m6 hide-on-small-only">
 <h5 class="truncate white-text tooltipped" data-tooltip="Cucumber Report Builder web automation test results">Cucumber Report Builder web automation test results</h5>
-</div><div class="col m6 s12 blue lighten-1">
-<ul class="tabs blue lighten-1 row" style="overflow-x: hidden">
+</div><div class="col m6 s12 brown lighten-1">
+<ul class="tabs brown lighten-1 row" style="overflow-x: hidden">
 <li class="tab col s3">
-<a class="blue lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+<a class="brown lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
 </li>
 <li class="tab col s3">
-<a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
 </li>
 <li class="tab col s3">
-<a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
 </li>
 <li class="tab col s3">
-<a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+<a class="brown lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
 </li>
 </ul>
 </div>
 </div>
 </header>
 <div id="g0f0s0" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@surgoLogin</div><h5>Try to login on Surgo portal (8.533s)</h5>
-features/spec/login_surgo_portal.feature:10
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@crud</div><div class="chip"><i class="material-icons rotate-45">label</i>@saveDasboard</div><h5>Saving research on dashboard (12.608s)</h5>
+features/spec/managingDashboards.feature:5
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access login Surgo Health page (6.938s)</li>
+<b>Given </b> I on home page of Surgo Health (0.452s)</li>
 <li class="collection-item step passed">
-<b>When </b> I inform credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;Rub3n5r@&#39; (0.121s)</li>
+<b>When </b> I click on Map icon and select a theme (11.081s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the home page Surgo Health (1.160s)</li>
-</ul></div><div class="modal-footer">
+<b>And </b> I select a state and click on Save button (0.199s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see it on Saved Dashboards (0.697s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f0s1" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.747s)</h5>
-features/spec/login_surgo_portal.feature:20
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@crud</div><div class="chip"><i class="material-icons rotate-45">label</i>@deleteDasboard</div><h5>Deleting research on dashboard saved (3.576s)</h5>
+features/spec/managingDashboards.feature:12
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access using invalid login Surgo Health (0.204s)</li>
+<b>Given </b> I logged on home page of Surgo Health (0.364s)</li>
 <li class="collection-item step passed">
-<b>When </b> I submit the invalid credentials with: &#39;test@mail.com.br&#39; and &#39;Rub3n5r@&#39; (0.114s)</li>
+<b>When </b> I select research saved and click on option to delete (0.908s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.161s)</li>
-</ul></div><div class="modal-footer">
-<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-</div>
-</div><div id="g0f0s2" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.820s)</h5>
-features/spec/login_surgo_portal.feature:21
-<ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access using invalid login Surgo Health (0.184s)</li>
+<b>And </b> I click on Delete option (1.803s)</li>
 <li class="collection-item step passed">
-<b>When </b> I submit the invalid credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;123457289&#39; (0.123s)</li>
-<li class="collection-item step passed">
-<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.238s)</li>
-</ul></div><div class="modal-footer">
-<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-</div>
-</div><div id="g0f0s3" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.738s)</h5>
-features/spec/login_surgo_portal.feature:22
-<ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access using invalid login Surgo Health (0.184s)</li>
-<li class="collection-item step passed">
-<b>When </b> I submit the invalid credentials with: &#39;test@teamarrayo.com&#39; and &#39;0987654321&#39; (0.125s)</li>
-<li class="collection-item step passed">
-<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.163s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should delete it from the Dashboards (0.308s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f1s0" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminLogin</div><h5>Try to login on admin portal successfull (5.722s)</h5>
-features/spec/login_admin.feature:12
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@surgoLogin</div><h5>Try to login on Surgo portal (7.338s)</h5>
+features/spec/login_surgo_portal.feature:10
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access the login page using a valid login (2.795s)</li>
+<b>Given </b> I access login Surgo Health page (5.919s)</li>
 <li class="collection-item step passed">
-<b>When </b> I fill my credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;V5rItsJVEKcufxyHRERRL&#39; (0.235s)</li>
+<b>When </b> I inform credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;Rub3n5r@&#39; (0.126s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the home page for user (1.313s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the home page Surgo Health (1.132s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f1s1" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.609s)</h5>
-features/spec/login_admin.feature:22
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.644s)</h5>
+features/spec/login_surgo_portal.feature:20
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access the login page (0.038s)</li>
+<b>Given </b> I access using invalid login Surgo Health (0.205s)</li>
 <li class="collection-item step passed">
-<b>When </b> I submit my credentials with: &#39;test@mail.com.br&#39; and &#39;Rub3n5r@&#39; (0.097s)</li>
+<b>When </b> I submit the invalid credentials with: &#39;test@mail.com.br&#39; and &#39;Rub3n5r@&#39; (0.116s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.184s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.167s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f1s2" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.647s)</h5>
-features/spec/login_admin.feature:23
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.739s)</h5>
+features/spec/login_surgo_portal.feature:21
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access the login page (0.031s)</li>
+<b>Given </b> I access using invalid login Surgo Health (0.202s)</li>
 <li class="collection-item step passed">
-<b>When </b> I submit my credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;123457289&#39; (0.108s)</li>
+<b>When </b> I submit the invalid credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;123457289&#39; (0.131s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.228s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.244s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f1s3" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.605s)</h5>
-features/spec/login_admin.feature:24
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@InvalidLogin</div><h5>Try to use invalid login on Surgo Health (0.645s)</h5>
+features/spec/login_surgo_portal.feature:22
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I access the login page (0.020s)</li>
+<b>Given </b> I access using invalid login Surgo Health (0.205s)</li>
 <li class="collection-item step passed">
-<b>When </b> I submit my credentials with: &#39;test@teamarrayo.com&#39; and &#39;0987654321&#39; (0.107s)</li>
+<b>When </b> I submit the invalid credentials with: &#39;test@teamarrayo.com&#39; and &#39;0987654321&#39; (0.123s)</li>
 <li class="collection-item step passed">
-<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.168s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the allert message: &#39;Invalid email or password&#39; (0.162s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f2s0" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addUser</div><h5>Add an account user (2.032s)</h5>
-features/spec/manage_account.feature:8
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminLogin</div><h5>Try to login on admin portal successfull (4.935s)</h5>
+features/spec/login_admin.feature:12
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.162s)</li>
+<b>Given </b> I access the login page using a valid login (2.317s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click on Ádd account (0.400s)</li>
+<b>When </b> I fill my credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;V5rItsJVEKcufxyHRERRL&#39; (0.247s)</li>
 <li class="collection-item step passed">
-<b>And </b> I fill the data to new user and click on Add account button (1.167s)</li>
-<li class="collection-item step passed">
-<b>Then </b> I should see the new user registred (0.000s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the home page for user (1.277s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f2s1" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@editUser</div><h5>Edit an account user (1.030s)</h5>
-features/spec/manage_account.feature:14
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.472s)</h5>
+features/spec/login_admin.feature:22
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.157s)</li>
+<b>Given </b> I access the login page (0.032s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click Edit button an user (0.456s)</li>
+<b>When </b> I submit my credentials with: &#39;test@mail.com.br&#39; and &#39;Rub3n5r@&#39; (0.121s)</li>
 <li class="collection-item step passed">
-<b>And </b> I edit all datas from user (0.130s)</li>
-<li class="collection-item step passed">
-<b>Then </b> I should see the data edited (0.000s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.170s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f2s2" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@deleteUser</div><h5>Delete an account user (0.943s)</h5>
-features/spec/manage_account.feature:20
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.560s)</h5>
+features/spec/login_admin.feature:23
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.156s)</li>
+<b>Given </b> I access the login page (0.035s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click Delete button an user (0.542s)</li>
+<b>When </b> I submit my credentials with: &#39;rmatos@teamarrayo.com&#39; and &#39;123457289&#39; (0.109s)</li>
 <li class="collection-item step passed">
-<b>Then </b> the user is deleted from the portal (0.000s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.259s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div><div id="g0f2s3" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addRepeatUser</div><h5>Add an repeated account user (1.350s)</h5>
-features/spec/manage_account.feature:25
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@smoke</div><div class="chip"><i class="material-icons rotate-45">label</i>@adminInvalidLogin</div><h5>Try to login on admin portal using invalid credentials (0.471s)</h5>
+features/spec/login_admin.feature:24
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.158s)</li>
+<b>Given </b> I access the login page (0.037s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click To Ádd account (0.359s)</li>
+<b>When </b> I submit my credentials with: &#39;test@teamarrayo.com&#39; and &#39;0987654321&#39; (0.108s)</li>
 <li class="collection-item step passed">
-<b>And </b> I fill the data to repeated user and click on Add account button (0.324s)</li>
-<li class="collection-item step passed">
-<b>Then </b> I should see the nthe allert message (0.206s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the message: &#39;Invalid email or password&#39; (0.168s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
-</div><div id="g0f2s4" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addNewCompany</div><h5>Add a new company (1.221s)</h5>
-features/spec/manage_account.feature:31
+</div><div id="g0f3s0" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addUser</div><h5>Add an account user (1.733s)</h5>
+features/spec/manage_account.feature:8
 <ul class="collection stepList"><li class="collection-item step passed">
-<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.155s)</li>
+<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.167s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click Add new company button (0.399s)</li>
+<b>When </b> I click on Add account (0.414s)</li>
 <li class="collection-item step passed">
-<b>And </b> I fill the name from the new company (0.164s)</li>
+<b>And </b> I fill the data to new user and click on Add account button (0.997s)</li>
 <li class="collection-item step passed">
-<b>Then </b> the new company is added on the system (0.198s)</li>
-</ul></div><div class="modal-footer">
+<b>Then </b> I should see the new user registred (0.000s)</li>
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
-</div><div id="g0f2s5" class="modal modal-fixed-footer">
-<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addRepeatedCompany</div><h5>Add a repeated company&#39;s name (0.994s)</h5>
-features/spec/manage_account.feature:37
+</div><div id="g0f3s1" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@editUser</div><h5>Edit an account user (0.921s)</h5>
+features/spec/manage_account.feature:14
 <ul class="collection stepList"><li class="collection-item step passed">
 <b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.156s)</li>
 <li class="collection-item step passed">
-<b>When </b> I click on Add new company button (0.253s)</li>
+<b>When </b> I click Edit button an user (0.478s)</li>
 <li class="collection-item step passed">
-<b>And </b> I fill the repeated name from the new company (0.092s)</li>
+<b>And </b> I edit all datas from user (0.128s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see the data edited (0.000s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f3s2" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@deleteUser</div><h5>Delete an account user (0.839s)</h5>
+features/spec/manage_account.feature:20
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.163s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click Delete button an user (0.520s)</li>
+<li class="collection-item step passed">
+<b>Then </b> the user is deleted from the portal (0.000s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f3s3" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addRepeatUser</div><h5>Add an repeated account user (1.140s)</h5>
+features/spec/manage_account.feature:25
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.167s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click To Ádd account (0.253s)</li>
+<li class="collection-item step passed">
+<b>And </b> I fill the data to repeated user and click on Add account button (0.352s)</li>
+<li class="collection-item step passed">
+<b>Then </b> I should see the nthe allert message (0.207s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f3s4" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addNewCompany</div><h5>Add a new company (0.818s)</h5>
+features/spec/manage_account.feature:31
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.166s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click Add new company button (0.253s)</li>
+<li class="collection-item step passed">
+<b>And </b> I fill the name from the new company (0.184s)</li>
+<li class="collection-item step passed">
+<b>Then </b> the new company is added on the system (0.047s)</li>
+</ul>
+</div><div class="modal-footer">
+<span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+</div>
+</div><div id="g0f3s5" class="modal modal-fixed-footer">
+<div class="modal-content"><div class="chip"><i class="material-icons rotate-45">label</i>@regration</div><div class="chip"><i class="material-icons rotate-45">label</i>@addRepeatedCompany</div><h5>Add a repeated company&#39;s name (1.058s)</h5>
+features/spec/manage_account.feature:37
+<ul class="collection stepList"><li class="collection-item step passed">
+<b>Given </b> I am on Surgo Admin portal &quot;rmatos@teamarrayo.com&quot; and &quot;V5rItsJVEKcufxyHRERRL&quot; (Background) (0.159s)</li>
+<li class="collection-item step passed">
+<b>When </b> I click on Add new company button (0.398s)</li>
+<li class="collection-item step passed">
+<b>And </b> I fill the repeated name from the new company (0.107s)</li>
 <li class="collection-item step passed">
 <b>Then </b> the new system show the message exception (0.203s)</li>
-</ul></div><div class="modal-footer">
+</ul>
+</div><div class="modal-footer">
 <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
 </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();$('#g0f0s3').modal();$('#g0f0s4').modal();$('#g0f1s0').modal();$('#g0f1s1').modal();$('#g0f1s2').modal();$('#g0f1s3').modal();$('#g0f1s4').modal();$('#g0f2s0').modal();$('#g0f2s1').modal();$('#g0f2s2').modal();$('#g0f2s3').modal();$('#g0f2s4').modal();$('#g0f2s5').modal();$('#g0f2s6').modal();});
+$(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f0s2').modal();$('#g0f1s0').modal();$('#g0f1s1').modal();$('#g0f1s2').modal();$('#g0f1s3').modal();$('#g0f1s4').modal();$('#g0f2s0').modal();$('#g0f2s1').modal();$('#g0f2s2').modal();$('#g0f2s3').modal();$('#g0f2s4').modal();$('#g0f3s0').modal();$('#g0f3s1').modal();$('#g0f3s2').modal();$('#g0f3s3').modal();$('#g0f3s4').modal();$('#g0f3s5').modal();$('#g0f3s6').modal();});
 </script>
-<main class="blue lighten-5">
-<div class="row"><div id="overview" class="col s12 blue lighten-5">
+<main class="brown lighten-5">
+<div class="row"><div id="overview" class="col s12 brown lighten-5">
 <div class="row">
 <div class="col m4 s12">
 <canvas id="featuresDoughnut" width="400" height="400"></canvas>
@@ -231,103 +275,115 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 </div><div class="col m4 s12">
 <table id="metaData" class="bordered">
 <tbody>
-<tr><th>Total Time</th><td>25.991s</td></tr><tr>
+<tr><th>Total Time</th><td>38.499s</td></tr><tr>
 <th>Project name</th>
 <td>Surgo Health</td>
 </tr><tr>
 <th>Platform</th>
 <td>Integration</td>
 </tr><tr>
-<th>Browser</th>
-<td>Chrome</td>
-</tr><tr>
 <th>Report generated</th>
-<td>2023-04-19 21:34:32 UTC</td>
+<td>2023-04-27 13:48:40 UTC</td>
 </tr></tbody>
 </table>
 </div>
-</div></div><div id="features" class="col s12 blue lighten-5 white-text">
+</div></div><div id="features" class="col s12 brown lighten-5 white-text">
 <ul class="featureList collapsible popout" data-collapsible="expandable">
 <li class="feature working">
-<div class="collapsible-header blue lighten-1 waves-effect waves-light">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Feature</b>&nbsp;Login as user Surgo Health&nbsp;(10.838s)
-</div><div class="collapsible-body blue lighten-4">
+<b>Feature</b>&nbsp;Edit researchers on Dashboard&nbsp;(16.185s)
+</div><div class="collapsible-body brown lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s0">
-<b>Scenario Outline</b> Try to login on Surgo portal&nbsp;(8.533s)
+<b>Scenario</b> Saving research on dashboard&nbsp;(12.608s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s1">
-<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.747s)
-</a>
-</li><li class="collection-item scenario passed">
-<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s2">
-<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.820s)
-</a>
-</li><li class="collection-item scenario passed">
-<a class="waves-effect waves-light modal-trigger white-text" href="#g0f0s3">
-<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.738s)
+<b>Scenario</b> Deleting research on dashboard saved&nbsp;(3.576s)
 </a>
 </li></ul>
 </div>
 </li><li class="feature working">
-<div class="collapsible-header blue lighten-1 waves-effect waves-light">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Feature</b>&nbsp;Login on Admin&nbsp;(7.583s)
-</div><div class="collapsible-body blue lighten-4">
+<b>Feature</b>&nbsp;Login as user Surgo Health&nbsp;(9.366s)
+</div><div class="collapsible-body brown lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s0">
-<b>Scenario Outline</b> Try to login on admin portal successfull&nbsp;(5.722s)
+<b>Scenario Outline</b> Try to login on Surgo portal&nbsp;(7.338s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s1">
-<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.609s)
+<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.644s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s2">
-<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.647s)
+<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.739s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f1s3">
-<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.605s)
+<b>Scenario Outline</b> Try to use invalid login on Surgo Health&nbsp;(0.645s)
 </a>
 </li></ul>
 </div>
 </li><li class="feature working">
-<div class="collapsible-header blue lighten-1 waves-effect waves-light">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
 <i class="material-icons">featured_play_list</i>
-<b>Feature</b>&nbsp;Manage accounts and companies&nbsp;(7.569s)
-</div><div class="collapsible-body blue lighten-4">
+<b>Feature</b>&nbsp;Login on Admin&nbsp;(6.439s)
+</div><div class="collapsible-body brown lighten-4">
 <ul class="collection scenarioList"><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s0">
-<b>Scenario</b> Add an account user&nbsp;(2.032s)
+<b>Scenario Outline</b> Try to login on admin portal successfull&nbsp;(4.935s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s1">
-<b>Scenario</b> Edit an account user&nbsp;(1.030s)
+<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.472s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s2">
-<b>Scenario</b> Delete an account user&nbsp;(0.943s)
+<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.560s)
 </a>
 </li><li class="collection-item scenario passed">
 <a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s3">
-<b>Scenario</b> Add an repeated account user&nbsp;(1.350s)
+<b>Scenario Outline</b> Try to login on admin portal using invalid credentials&nbsp;(0.471s)
+</a>
+</li></ul>
+</div>
+</li><li class="feature working">
+<div class="collapsible-header brown lighten-1 waves-effect waves-light">
+<i class="material-icons">featured_play_list</i>
+<b>Feature</b>&nbsp;Manage accounts and companies&nbsp;(6.509s)
+</div><div class="collapsible-body brown lighten-4">
+<ul class="collection scenarioList"><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s0">
+<b>Scenario</b> Add an account user&nbsp;(1.733s)
 </a>
 </li><li class="collection-item scenario passed">
-<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s4">
-<b>Scenario</b> Add a new company&nbsp;(1.221s)
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s1">
+<b>Scenario</b> Edit an account user&nbsp;(0.921s)
 </a>
 </li><li class="collection-item scenario passed">
-<a class="waves-effect waves-light modal-trigger white-text" href="#g0f2s5">
-<b>Scenario</b> Add a repeated company&#39;s name&nbsp;(0.994s)
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s2">
+<b>Scenario</b> Delete an account user&nbsp;(0.839s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s3">
+<b>Scenario</b> Add an repeated account user&nbsp;(1.140s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s4">
+<b>Scenario</b> Add a new company&nbsp;(0.818s)
+</a>
+</li><li class="collection-item scenario passed">
+<a class="waves-effect waves-light modal-trigger white-text" href="#g0f3s5">
+<b>Scenario</b> Add a repeated company&#39;s name&nbsp;(1.058s)
 </a>
 </li></ul>
 </div>
 </li>
-</ul></div><div id="summary" class="col s12 blue lighten-5">
-<table id="summaryTable" class="bordered blue lighten-1 white-text" width="100%">
+</ul></div><div id="summary" class="col s12 brown lighten-5">
+<table id="summaryTable" class="bordered brown lighten-1 white-text" width="100%">
 <thead>
 <tr>
 <th class="hide-on-small-only">Feature</th>
@@ -339,9 +395,29 @@ $(document).ready(function () {$('#g0f0s0').modal();$('#g0f0s1').modal();$('#g0f
 </thead>
 <tbody><tr class="passed">
 <td class="hide-on-small-only">
+Edit researchers on Dashboard
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s0">Saving research on dashboard</a>
+</td><td class="hide">
+@crud. @saveDasboard. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
+Edit researchers on Dashboard
+</td><td class="hoverable">
+<a class="modal-trigger white-text" href="#g0f0s1">Deleting research on dashboard saved</a>
+</td><td class="hide">
+@crud. @deleteDasboard. 
+</td><td class="uppercase">
+passed
+</td><td class="hide-on-small-only"></td></tr>
+<tr class="passed">
+<td class="hide-on-small-only">
 Login as user Surgo Health
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s0">Try to login on Surgo portal</a>
+<a class="modal-trigger white-text" href="#g0f1s0">Try to login on Surgo portal</a>
 </td><td class="hide">
 @surgoLogin. 
 </td><td class="uppercase">
@@ -351,7 +427,7 @@ passed
 <td class="hide-on-small-only">
 Login as user Surgo Health
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s1">Try to use invalid login on Surgo Health</a>
+<a class="modal-trigger white-text" href="#g0f1s1">Try to use invalid login on Surgo Health</a>
 </td><td class="hide">
 @InvalidLogin. 
 </td><td class="uppercase">
@@ -361,7 +437,7 @@ passed
 <td class="hide-on-small-only">
 Login as user Surgo Health
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s2">Try to use invalid login on Surgo Health</a>
+<a class="modal-trigger white-text" href="#g0f1s2">Try to use invalid login on Surgo Health</a>
 </td><td class="hide">
 @InvalidLogin. 
 </td><td class="uppercase">
@@ -371,7 +447,7 @@ passed
 <td class="hide-on-small-only">
 Login as user Surgo Health
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f0s3">Try to use invalid login on Surgo Health</a>
+<a class="modal-trigger white-text" href="#g0f1s3">Try to use invalid login on Surgo Health</a>
 </td><td class="hide">
 @InvalidLogin. 
 </td><td class="uppercase">
@@ -381,7 +457,7 @@ passed
 <td class="hide-on-small-only">
 Login on Admin
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f1s0">Try to login on admin portal successfull</a>
+<a class="modal-trigger white-text" href="#g0f2s0">Try to login on admin portal successfull</a>
 </td><td class="hide">
 @smoke. @adminLogin. 
 </td><td class="uppercase">
@@ -391,7 +467,7 @@ passed
 <td class="hide-on-small-only">
 Login on Admin
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f1s1">Try to login on admin portal using invalid credentials</a>
+<a class="modal-trigger white-text" href="#g0f2s1">Try to login on admin portal using invalid credentials</a>
 </td><td class="hide">
 @smoke. @adminInvalidLogin. 
 </td><td class="uppercase">
@@ -401,7 +477,7 @@ passed
 <td class="hide-on-small-only">
 Login on Admin
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f1s2">Try to login on admin portal using invalid credentials</a>
+<a class="modal-trigger white-text" href="#g0f2s2">Try to login on admin portal using invalid credentials</a>
 </td><td class="hide">
 @smoke. @adminInvalidLogin. 
 </td><td class="uppercase">
@@ -411,7 +487,7 @@ passed
 <td class="hide-on-small-only">
 Login on Admin
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f1s3">Try to login on admin portal using invalid credentials</a>
+<a class="modal-trigger white-text" href="#g0f2s3">Try to login on admin portal using invalid credentials</a>
 </td><td class="hide">
 @smoke. @adminInvalidLogin. 
 </td><td class="uppercase">
@@ -421,7 +497,7 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s0">Add an account user</a>
+<a class="modal-trigger white-text" href="#g0f3s0">Add an account user</a>
 </td><td class="hide">
 @regration. @addUser. 
 </td><td class="uppercase">
@@ -431,7 +507,7 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s1">Edit an account user</a>
+<a class="modal-trigger white-text" href="#g0f3s1">Edit an account user</a>
 </td><td class="hide">
 @regration. @editUser. 
 </td><td class="uppercase">
@@ -441,7 +517,7 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s2">Delete an account user</a>
+<a class="modal-trigger white-text" href="#g0f3s2">Delete an account user</a>
 </td><td class="hide">
 @regration. @deleteUser. 
 </td><td class="uppercase">
@@ -451,7 +527,7 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s3">Add an repeated account user</a>
+<a class="modal-trigger white-text" href="#g0f3s3">Add an repeated account user</a>
 </td><td class="hide">
 @regration. @addRepeatUser. 
 </td><td class="uppercase">
@@ -461,7 +537,7 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s4">Add a new company</a>
+<a class="modal-trigger white-text" href="#g0f3s4">Add a new company</a>
 </td><td class="hide">
 @regration. @addNewCompany. 
 </td><td class="uppercase">
@@ -471,18 +547,18 @@ passed
 <td class="hide-on-small-only">
 Manage accounts and companies
 </td><td class="hoverable">
-<a class="modal-trigger white-text" href="#g0f2s5">Add a repeated company&#39;s name</a>
+<a class="modal-trigger white-text" href="#g0f3s5">Add a repeated company&#39;s name</a>
 </td><td class="hide">
 @regration. @addRepeatedCompany. 
 </td><td class="uppercase">
 passed
 </td><td class="hide-on-small-only"></td></tr>
 </tbody>
-</table></div><div id="errors" class="col s12 blue lighten-5">
+</table></div><div id="errors" class="col s12 brown lighten-5">
 <ul class="errorList collapsible popout" data-collapsible="expandable"></ul></div>
 </div>
-</main><footer class="page-footer blue lighten-4">
-<div class="footer-copyright blue lighten-1">
+</main><footer class="page-footer brown lighten-4">
+<div class="footer-copyright brown lighten-1">
 <div class="container">
 Happy Reporting!
 <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
